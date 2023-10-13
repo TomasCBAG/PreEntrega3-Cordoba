@@ -57,5 +57,30 @@ body {
     display: flex;
   }
 }
+main .tarjeta {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+main .tarjeta .juegos-desc {
+  padding: 20px;
+  text-align: center;
+}
+main .tarjeta .juegos-desc .descripcion {
+  display: inline-block;
+  text-align: center;
+  overflow: auto;
+  width: 250px;
+  height: 100px;
+}
+main .tarjeta .juegos-desc .descripcion p {
+  background-color: black;
+  padding: 0;
+  color: white;
+}
+main .tarjeta .juegos-desc .btrailer a {
+  text-decoration: none;
+  color: black;
+}
 
 /*# sourceMappingURL=styles.css.map */

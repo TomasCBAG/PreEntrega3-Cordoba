@@ -1,0 +1,34 @@
+main{
+    .tarjeta{
+        background-color: white;
+        display: flex;
+        
+        justify-content: center;
+        
+        .juegos-desc{
+            padding: 20px;
+            text-align: center;
+            
+            .descripcion{
+                
+                display: inline-block;
+                text-align: center;
+                overflow: auto;
+                width: 250px;
+                height: 100px;
+                p{
+                    background-color: black;
+                    padding: 0;
+                    color: white;
+                }
+                
+            }
+            .btrailer{
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}
