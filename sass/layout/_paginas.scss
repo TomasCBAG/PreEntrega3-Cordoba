@@ -1,0 +1,41 @@
+
+
+main{
+    .imagenes_inicio{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        .imagenes-3{
+            display: none;
+        }
+        .imagenes-4{
+            display: none;
+        }
+    }
+    p{
+        padding: 10px;
+
+        color: white;
+        background-color: chocolate;
+    }
+
+
+}
+
+footer{
+    .Pagos{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(202, 100, 5, 0.658);
+        display: flex;
+        .Medios-p{
+            color: rgb(0, 0, 0);
+            text-align: center;
+            margin: 10px;
+            background-color: rgba(0, 0, 0, 0);
+            width: 170px;
+            height: 150px;
+        }
+    }
+}

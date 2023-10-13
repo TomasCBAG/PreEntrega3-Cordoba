@@ -1,0 +1,61 @@
+main .imagenes_inicio {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+main .imagenes_inicio .imagenes-3 {
+  display: none;
+}
+main .imagenes_inicio .imagenes-4 {
+  display: none;
+}
+main p {
+  padding: 10px;
+  color: white;
+  background-color: chocolate;
+}
+
+footer .Pagos {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(202, 100, 5, 0.658);
+  display: flex;
+}
+footer .Pagos .Medios-p {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  width: 170px;
+  height: 150px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../assets/img/fondo.png);
+}
+
+@media (min-width: 992px) {
+  main .imagenes_inicio {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  main .imagenes_inicio .imagenes-3 {
+    display: flex;
+  }
+}
+@media (min-width: 1200px) {
+  main .imagenes_inicio {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  main .imagenes_inicio .imagenes-4 {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
