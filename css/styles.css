@@ -121,4 +121,12 @@ main .tarjeta .juegos-desc .btrailer a {
   border-radius: 10px;
 }
 
+.contact .form {
+  background-color: rgba(255, 255, 255, 0.733);
+}
+
+main .informacin .horarios p ul {
+  background-color: white;
+}
+
 /*# sourceMappingURL=styles.css.map */
