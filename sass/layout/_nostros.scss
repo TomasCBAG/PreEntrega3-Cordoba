@@ -1,11 +1,21 @@
-main{
-    .informacin{
-        .horarios{
-            p{
-                ul{
-                    background-color: white;
-                }
-            }
+.inf{
+    .cuerp{
+        display: grid;
+        align-items: center;
+
+    }
+    .Mapa{
+        background-color: rgba(255, 255, 255, 0.801);
+        display: inline-block;
+        text-align: center;
+    }
+    .horarios{
+        text-align: center;
+        display: inline-block;
+        ul{
+            list-style: none;
+            display: block;
+            background-color: rgba(255, 255, 255, 0.801);
         }
     }
 }

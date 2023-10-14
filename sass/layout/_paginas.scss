@@ -15,8 +15,8 @@ main{
     p{
         padding: 10px;
 
-        color: white;
-        background-color: chocolate;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
     }
 
 
@@ -27,7 +27,7 @@ footer{
         justify-content: center;
         align-items: center;
         text-align: center;
-        background-color: rgba(202, 100, 5, 0.658);
+        background-color: rgba(255, 255, 255, 0.850);
         display: flex;
         .Medios-p{
             color: rgb(0, 0, 0);

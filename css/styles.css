@@ -11,15 +11,15 @@ main .imagenes_inicio .imagenes-4 {
 }
 main p {
   padding: 10px;
-  color: white;
-  background-color: chocolate;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 
 footer .Pagos {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgba(202, 100, 5, 0.658);
+  background-color: rgba(255, 255, 255, 0.85);
   display: flex;
 }
 footer .Pagos .Medios-p {
@@ -121,12 +121,23 @@ main .tarjeta .juegos-desc .btrailer a {
   border-radius: 10px;
 }
 
-.contact .form {
-  background-color: rgba(255, 255, 255, 0.733);
+.inf .cuerp {
+  display: grid;
+  align-items: center;
 }
-
-main .informacin .horarios p ul {
-  background-color: white;
+.inf .Mapa {
+  background-color: rgba(255, 255, 255, 0.801);
+  display: inline-block;
+  text-align: center;
+}
+.inf .horarios {
+  text-align: center;
+  display: inline-block;
+}
+.inf .horarios ul {
+  list-style: none;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.801);
 }
 
 /*# sourceMappingURL=styles.css.map */
