@@ -1,0 +1,39 @@
+main{
+    .tarjeta{
+        margin: 10px;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        padding: 10px;
+        .juegos-img{
+            text-align: center;
+        }
+        
+        .juegos-desc{
+            padding: 20px;
+            text-align: center;
+            
+            .descripcion{
+                display: inline-block;
+                text-align: center;
+                overflow: auto;
+                width: 250px;
+                height: 100px;
+                p{
+                    background-color: black;
+                    padding: 0;
+                    color: white;
+                }
+                
+            }
+            .btrailer{
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}

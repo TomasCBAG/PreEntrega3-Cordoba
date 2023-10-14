@@ -57,5 +57,62 @@ body {
     display: flex;
   }
 }
+@media (min-width: 768px) {
+  .Cuerpo-xb {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .Cuerpo-xb .tarjeta {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+@media (min-width: 992px) {
+  .Cuerpo-xb {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+}
+@media (min-width: 1400px) {
+  .Cuerpo-xb {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+}
+main .tarjeta {
+  margin: 10px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  padding: 10px;
+}
+main .tarjeta .juegos-img {
+  text-align: center;
+}
+main .tarjeta .juegos-desc {
+  padding: 20px;
+  text-align: center;
+}
+main .tarjeta .juegos-desc .descripcion {
+  display: inline-block;
+  text-align: center;
+  overflow: auto;
+  width: 250px;
+  height: 100px;
+}
+main .tarjeta .juegos-desc .descripcion p {
+  background-color: black;
+  padding: 0;
+  color: white;
+}
+main .tarjeta .juegos-desc .btrailer a {
+  text-decoration: none;
+  color: black;
+}
 
 /*# sourceMappingURL=styles.css.map */
