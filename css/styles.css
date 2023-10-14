@@ -84,7 +84,7 @@ body {
 }
 main .tarjeta {
   margin: 10px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.78);
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
@@ -110,9 +110,15 @@ main .tarjeta .juegos-desc .descripcion p {
   padding: 0;
   color: white;
 }
+main .tarjeta .juegos-desc .btrailer {
+  padding: 10px;
+}
 main .tarjeta .juegos-desc .btrailer a {
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
+  background-color: red;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
